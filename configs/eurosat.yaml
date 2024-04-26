@@ -1,0 +1,22 @@
+# ------ root_path/dataset_name ------
+root_path: '/data/yic/renl/clean_code/CODER/datasets/data/data'
+
+
+# ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+# ------ Hyperparamters ------
+
+init_beta: 91.34
+init_alpha: 1.73
+T: 1
+
+# ------ Basic Config ------
+dataset: 'eurosat'
+shots: 1
+backbone: 'RN50'
+lr: 0.001
+augment_epoch: 20
+
+seed: 1

@@ -1,0 +1,20 @@
+# ------ root_path/dataset_name ------
+root_path: '/data/yic/renl/clean_code/CODER/datasets/data/data/aircraft/fgvc-aircraft-2013b'
+
+# # ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+# ------ Hyperparamters ------
+init_beta: 96
+init_alpha: 9.775
+T: 1
+
+# ------ Basic Config ------
+dataset: 'Aircraft'
+shots: 1
+backbone: 'ViT-L-14'
+lr: 0.001
+augment_epoch: 20
+
+seed: 1

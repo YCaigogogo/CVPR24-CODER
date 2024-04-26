@@ -1,0 +1,20 @@
+# ------ root_path/dataset_name ------
+root_path: '/data/yic/Tip-Adapter-main/data/data/dtd'
+
+# ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+# ------ Hyperparamters ------
+init_beta: 30.18
+init_alpha: 2.57
+T: 1
+
+# ------ Basic Config ------
+dataset: 'DTD'
+shots: 1
+backbone: 'RN50'
+lr: 0.001
+augment_epoch: 20
+
+seed: 1

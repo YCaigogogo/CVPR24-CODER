@@ -1,0 +1,20 @@
+# ------ root_path/dataset_name ------
+root_path: '/data/yic/renl/clean_code/CODER/datasets/data/data'
+
+# ------ Load Cache and Features ------
+load_cache: False
+load_pre_feat: False
+
+# ------ Hyperparamters ------
+init_beta: 38
+init_alpha: 4.37
+T: 1
+
+# ------ Basic Config ------
+dataset: 'oxford_flowers'
+shots: 1
+backbone: 'RN50'
+lr: 0.001
+augment_epoch: 20
+
+seed: 1
