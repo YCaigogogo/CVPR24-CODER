@@ -132,7 +132,6 @@ def main(args):
     few_shot_classify(train_loader, val_loader, test_loader, clip_model, coder, clip_text_classifiers, cfg)
 
 
-
 if __name__ == '__main__':
     args = get_arguments()  
     main(args)

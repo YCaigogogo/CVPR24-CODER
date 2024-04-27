@@ -1,6 +1,5 @@
 # ------ root_path/dataset_name ------
-root_path: '/data/yic/renl/clean_code/CODER/datasets/data/data'
-
+root_path: "Your Dataset Path"
 
 # ------ Load Cache and Features ------
 load_cache: False

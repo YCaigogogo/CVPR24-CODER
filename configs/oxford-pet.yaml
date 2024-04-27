@@ -1,5 +1,5 @@
 # ------ root_path/dataset_name ------
-root_path: '/data/yic/Tip-Adapter-main/data/data'
+root_path: "Your Dataset Path"
 
 # ------ Load Cache and Features ------
 load_cache: False
